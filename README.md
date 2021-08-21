@@ -1,2 +1,2 @@
-# e-Muzeu
+# E-Muzeu
 Muzeul Etnografic din Gratiesti
