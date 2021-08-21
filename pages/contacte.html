@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <title> Muzeul </title>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            <img class="header-logo" src="../images/muzeul.jpg" alt="logoul siteului " />
+            Muzeul Etnografic "Leagănul Veșniciei"
+            <i class="fab fa-maxcdn" style="font-size:24px" logo> </i>
+        </a>
+        <i id="menu-btn" class="fas fa-bars" onclick="show()"></i>
+    </header>
+    <div class="page-container">
+        <aside id="side-menu">
+            <a href="../index.html ">ACASA
+                <i class="fa fa-home"></i>
+            </a>
+            <a href="evenimente.html "> evenimente
+                <i class="fa fa-bell-o"></i>
+            </a>
+            <a href="traditii.html "> traditii si obiceiuri
+                <i class="fas fa-bell"></i>
+            </a>
+            <a href="colectii.html "> COLECȚII
+                <i class="far fa-envelope"></i>
+            </a>
+            <a href="galerii.html "> GALERII
+                <i class="fas fa-money-bill-wave"></i>
+            </a>
+            <a href="contacte.html "> contacte
+                <i class="fas fa-file-signature"></i>
+            </a>
+        </aside>
+        <main>
+            <h2 class="centered"> Contacte </h2>
+            <div class="row">
+                <div class="col-50">
+                    <h3> Contactați-ne dacă:</h3>
+                    <ul class="contact-list">
+                        <li> Doriți să cunoști mai mult? </li>
+                        <li>Dacă ești pasionat de neam, țară... </li>
+                        <li>Ai o sugestii/propuneri </li>
+                        <li>Bucuroși să vă avem în vizită la muzeu... </li>
+                    </ul>
+                </div>
+                <div class="col-50">
+                    <h3> Date de contact </h3>
+                    <ul class="contact-list">
+                        <li> <b>Adresa </b> comuna Grătiești, strada Ion Soltîs 4 </li>
+                        <li> <b>Telefon </b> 069 192 618 </li>
+                        <li> <b>E-mail </b> olga_moise@mail.ru</li>
+                        <li> <b> Ore de lucru </b> 10:00 - 18:00 </li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-50">
+                    <iframe class="map" 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2715.9658783031214!2d28.820607415412066!3d47.09973957915431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cbd99d1a5e11c7%3A0xbf437c48b828989!2sMuzeul%20etnografic%20%22Leag%C4%83nul%20Ve%C8%99niciei%22!5e0!3m2!1sro!2s!4v1628831711399!5m2!1sro!2s"
+                        allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+                <div class="col-50">
+                    <div class="contact-form ">
+                        <form>
+                            <h3 class="centered">Lasă un mesaj</h3>
+                            <input type="text" placeholder="Nume" required />
+                            <input type="email" placeholder="Email" required />
+                            <textarea rows="3" placeholder="Mesaj" required></textarea>
+                            <input type="Submit" value="Transmite" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+    <footer>
+        <div class="centered footer-info">
+            <span> Muzeul Etnografic „Leagănul Veșniciei” </span>
+            <span id="an"></span>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
